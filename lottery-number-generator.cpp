@@ -44,6 +44,7 @@ int main()
     cout << "These numbers were generated on " << ctime(&now);
     cout << "========================================" << endl;
     cout << "*MEGA MILLIONS*" << endl;
+    cout << "Draw days: Tuesday and Friday" << endl;
     cout << "Odds of winning: 1 in 302,575,350" << endl;
     cout << "Mega Millions numbers: ";
     for (int i = 0; i < size(mm); i++) {
@@ -62,6 +63,7 @@ int main()
     cout << endl;
     cout << endl;
     cout << "*POWERBALL*" << endl;
+    cout << "Draw days: Monday, Wednesday, Saturday" << endl;
     cout << "Odds of winning: 1 in 292,201,338" << endl;
     cout << "Powerball numbers: ";
     for (int i = 0; i < size(pb); i++) {
@@ -80,6 +82,7 @@ int main()
     cout << endl;
     cout << endl;
     cout << "*SUPER LOTTO*" << endl;
+    cout << "Draw days: Wednesday and Saturday" << endl;
     cout << "Odds of winning: 1 in 41,416,353" << endl;
     cout << "Super Lotto numbers: ";
     for (int i = 0; i < size(sl); i++) {
