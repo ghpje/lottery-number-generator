@@ -128,8 +128,8 @@ void menuMain() {
 void megaMillions() {
 /*
 Mega Millions
-5(1-70)+ 1(1-25)
-Odds: 1 in 302,575,350
+5(1-70) + 1(1-24)
+Odds: 1 in 290,472,336
 */
     int mm[5];
     int lenMM = sizeof(mm)/sizeof(mm[0]);
@@ -156,7 +156,7 @@ Odds: 1 in 302,575,350
 void powerBall() {
 /*
 Powerball
-5(1-69)+ 1(1-26)
+5(1-69) + 1(1-26)
 Odds: 1 in 292,201,338
 */
     int pb[5];
@@ -183,7 +183,7 @@ Odds: 1 in 292,201,338
 // Generate and print Super Lotto numbers
 void superLotto() {
 /*Super Lotto
-5(1-47)+ 1(1-27)
+5(1-47) + 1(1-27)
 Odds: 1 in 41,416,353
 */
     int sl[5];
